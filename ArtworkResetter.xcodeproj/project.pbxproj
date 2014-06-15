@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550F06D7194CC097009A8497 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 550F06D0194CC097009A8497 /* CMakeLists.txt */; };
+		550F06D8194CC097009A8497 /* frame.c in Sources */ = {isa = PBXBuildFile; fileRef = 550F06D1194CC097009A8497 /* frame.c */; };
+		550F06D9194CC097009A8497 /* header.c in Sources */ = {isa = PBXBuildFile; fileRef = 550F06D2194CC097009A8497 /* header.c */; };
+		550F06DA194CC097009A8497 /* id3v2lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 550F06D3194CC097009A8497 /* id3v2lib.c */; };
+		550F06DB194CC097009A8497 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 550F06D4194CC097009A8497 /* Makefile */; };
+		550F06DC194CC097009A8497 /* types.c in Sources */ = {isa = PBXBuildFile; fileRef = 550F06D5194CC097009A8497 /* types.c */; };
+		550F06DD194CC097009A8497 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 550F06D6194CC097009A8497 /* utils.c */; };
+		557BB4E3190250B800E9F061 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557BB4E2190250B800E9F061 /* Cocoa.framework */; };
+		557BB4ED190250B800E9F061 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 557BB4EB190250B800E9F061 /* InfoPlist.strings */; };
+		557BB4EF190250B800E9F061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 557BB4EE190250B800E9F061 /* main.m */; };
+		557BB4F3190250B800E9F061 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 557BB4F1190250B800E9F061 /* Credits.rtf */; };
+		557BB4F6190250B800E9F061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 557BB4F5190250B800E9F061 /* AppDelegate.m */; };
+		557BB4F9190250B800E9F061 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 557BB4F7190250B800E9F061 /* MainMenu.xib */; };
+		557BB4FB190250B800E9F061 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557BB4FA190250B800E9F061 /* Images.xcassets */; };
+		557BB517190250DD00E9F061 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557BB516190250DD00E9F061 /* AVFoundation.framework */; };
+		557BB51D1902517C00E9F061 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 557BB51C1902517C00E9F061 /* MainWindowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		550F06C9194CC097009A8497 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		550F06CA194CC097009A8497 /* frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = frame.h; sourceTree = "<group>"; };
+		550F06CB194CC097009A8497 /* header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		550F06CC194CC097009A8497 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		550F06CD194CC097009A8497 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		550F06CE194CC097009A8497 /* id3v2lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = id3v2lib.h; sourceTree = "<group>"; };
+		550F06D0194CC097009A8497 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		550F06D1194CC097009A8497 /* frame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = frame.c; sourceTree = "<group>"; };
+		550F06D2194CC097009A8497 /* header.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = header.c; sourceTree = "<group>"; };
+		550F06D3194CC097009A8497 /* id3v2lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = id3v2lib.c; sourceTree = "<group>"; };
+		550F06D4194CC097009A8497 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		550F06D5194CC097009A8497 /* types.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = types.c; sourceTree = "<group>"; };
+		550F06D6194CC097009A8497 /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		557BB4DF190250B800E9F061 /* ArtworkResetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtworkResetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		557BB4E2190250B800E9F061 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		557BB4E5190250B800E9F061 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		557BB4E6190250B800E9F061 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		557BB4E7190250B800E9F061 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		557BB4EA190250B800E9F061 /* ArtworkResetter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArtworkResetter-Info.plist"; sourceTree = "<group>"; };
+		557BB4EC190250B800E9F061 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		557BB4EE190250B800E9F061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		557BB4F0190250B800E9F061 /* ArtworkResetter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArtworkResetter-Prefix.pch"; sourceTree = "<group>"; };
+		557BB4F2190250B800E9F061 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		557BB4F4190250B800E9F061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		557BB4F5190250B800E9F061 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		557BB4F8190250B800E9F061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		557BB4FA190250B800E9F061 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		557BB501190250B800E9F061 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		557BB516190250DD00E9F061 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		557BB51B1902517C00E9F061 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		557BB51C1902517C00E9F061 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		557BB4DC190250B800E9F061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557BB517190250DD00E9F061 /* AVFoundation.framework in Frameworks */,
+				557BB4E3190250B800E9F061 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550F06C6194CC097009A8497 /* id3v2lib-master */ = {
+			isa = PBXGroup;
+			children = (
+				550F06C7194CC097009A8497 /* include */,
+				550F06CF194CC097009A8497 /* src */,
+			);
+			name = "id3v2lib-master";
+			path = "../../../解凍/id3v2lib-master";
+			sourceTree = "<group>";
+		};
+		550F06C7194CC097009A8497 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				550F06C8194CC097009A8497 /* id3v2lib */,
+				550F06CE194CC097009A8497 /* id3v2lib.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		550F06C8194CC097009A8497 /* id3v2lib */ = {
+			isa = PBXGroup;
+			children = (
+				550F06C9194CC097009A8497 /* constants.h */,
+				550F06CA194CC097009A8497 /* frame.h */,
+				550F06CB194CC097009A8497 /* header.h */,
+				550F06CC194CC097009A8497 /* types.h */,
+				550F06CD194CC097009A8497 /* utils.h */,
+			);
+			path = id3v2lib;
+			sourceTree = "<group>";
+		};
+		550F06CF194CC097009A8497 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				550F06D0194CC097009A8497 /* CMakeLists.txt */,
+				550F06D1194CC097009A8497 /* frame.c */,
+				550F06D2194CC097009A8497 /* header.c */,
+				550F06D3194CC097009A8497 /* id3v2lib.c */,
+				550F06D4194CC097009A8497 /* Makefile */,
+				550F06D5194CC097009A8497 /* types.c */,
+				550F06D6194CC097009A8497 /* utils.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		557BB4D6190250B800E9F061 = {
+			isa = PBXGroup;
+			children = (
+				557BB4E8190250B800E9F061 /* ArtworkResetter */,
+				557BB4E1190250B800E9F061 /* Frameworks */,
+				557BB4E0190250B800E9F061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		557BB4E0190250B800E9F061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				557BB4DF190250B800E9F061 /* ArtworkResetter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		557BB4E1190250B800E9F061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				557BB516190250DD00E9F061 /* AVFoundation.framework */,
+				557BB4E2190250B800E9F061 /* Cocoa.framework */,
+				557BB501190250B800E9F061 /* XCTest.framework */,
+				557BB4E4190250B800E9F061 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		557BB4E4190250B800E9F061 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				557BB4E5190250B800E9F061 /* AppKit.framework */,
+				557BB4E6190250B800E9F061 /* CoreData.framework */,
+				557BB4E7190250B800E9F061 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		557BB4E8190250B800E9F061 /* ArtworkResetter */ = {
+			isa = PBXGroup;
+			children = (
+				557BB4F4190250B800E9F061 /* AppDelegate.h */,
+				557BB4F5190250B800E9F061 /* AppDelegate.m */,
+				557BB51B1902517C00E9F061 /* MainWindowController.h */,
+				557BB51C1902517C00E9F061 /* MainWindowController.m */,
+				557BB4F7190250B800E9F061 /* MainMenu.xib */,
+				557BB4FA190250B800E9F061 /* Images.xcassets */,
+				557BB4E9190250B800E9F061 /* Supporting Files */,
+			);
+			path = ArtworkResetter;
+			sourceTree = "<group>";
+		};
+		557BB4E9190250B800E9F061 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				550F06C6194CC097009A8497 /* id3v2lib-master */,
+				557BB4EA190250B800E9F061 /* ArtworkResetter-Info.plist */,
+				557BB4EB190250B800E9F061 /* InfoPlist.strings */,
+				557BB4EE190250B800E9F061 /* main.m */,
+				557BB4F0190250B800E9F061 /* ArtworkResetter-Prefix.pch */,
+				557BB4F1190250B800E9F061 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		557BB4DE190250B800E9F061 /* ArtworkResetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557BB510190250B900E9F061 /* Build configuration list for PBXNativeTarget "ArtworkResetter" */;
+			buildPhases = (
+				557BB4DB190250B800E9F061 /* Sources */,
+				557BB4DC190250B800E9F061 /* Frameworks */,
+				557BB4DD190250B800E9F061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtworkResetter;
+			productName = ArtworkResetter;
+			productReference = 557BB4DF190250B800E9F061 /* ArtworkResetter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		557BB4D7190250B800E9F061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = KoheiKanagu;
+			};
+			buildConfigurationList = 557BB4DA190250B800E9F061 /* Build configuration list for PBXProject "ArtworkResetter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
+			mainGroup = 557BB4D6190250B800E9F061;
+			productRefGroup = 557BB4E0190250B800E9F061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				557BB4DE190250B800E9F061 /* ArtworkResetter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		557BB4DD190250B800E9F061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557BB4ED190250B800E9F061 /* InfoPlist.strings in Resources */,
+				557BB4FB190250B800E9F061 /* Images.xcassets in Resources */,
+				557BB4F3190250B800E9F061 /* Credits.rtf in Resources */,
+				557BB4F9190250B800E9F061 /* MainMenu.xib in Resources */,
+				550F06D7194CC097009A8497 /* CMakeLists.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		557BB4DB190250B800E9F061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550F06DA194CC097009A8497 /* id3v2lib.c in Sources */,
+				557BB4F6190250B800E9F061 /* AppDelegate.m in Sources */,
+				557BB51D1902517C00E9F061 /* MainWindowController.m in Sources */,
+				550F06DD194CC097009A8497 /* utils.c in Sources */,
+				557BB4EF190250B800E9F061 /* main.m in Sources */,
+				550F06D9194CC097009A8497 /* header.c in Sources */,
+				550F06DC194CC097009A8497 /* types.c in Sources */,
+				550F06DB194CC097009A8497 /* Makefile in Sources */,
+				550F06D8194CC097009A8497 /* frame.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		557BB4EB190250B800E9F061 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557BB4EC190250B800E9F061 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		557BB4F1190250B800E9F061 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557BB4F2190250B800E9F061 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		557BB4F7190250B800E9F061 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557BB4F8190250B800E9F061 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		557BB50E190250B900E9F061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		557BB50F190250B900E9F061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		557BB511190250B900E9F061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArtworkResetter/ArtworkResetter-Prefix.pch";
+				INFOPLIST_FILE = "ArtworkResetter/ArtworkResetter-Info.plist";
+				PRODUCT_NAME = ArtworkResetter;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		557BB512190250B900E9F061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArtworkResetter/ArtworkResetter-Prefix.pch";
+				INFOPLIST_FILE = "ArtworkResetter/ArtworkResetter-Info.plist";
+				PRODUCT_NAME = ArtworkResetter;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		557BB4DA190250B800E9F061 /* Build configuration list for PBXProject "ArtworkResetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557BB50E190250B900E9F061 /* Debug */,
+				557BB50F190250B900E9F061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557BB510190250B900E9F061 /* Build configuration list for PBXNativeTarget "ArtworkResetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557BB511190250B900E9F061 /* Debug */,
+				557BB512190250B900E9F061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 557BB4D7190250B800E9F061 /* Project object */;
+}
